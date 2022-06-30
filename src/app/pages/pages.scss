@@ -8,6 +8,16 @@ h1 {
 	font-size: 2rem;
 }
 
+h2 {
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+* {
+	font-family: var(--font-main);
+	font-size: 1.25rem;
+}
+
 .quote {
 	font-family: var(--font-quote);
 	margin-block: auto;
@@ -18,8 +28,17 @@ h1 {
 	transform: rotate(-4deg);
 }
 
+a {
+	margin-bottom: 1rem;
+}
+
 p {
 	text-indent: 3rem;
 	font-family: 'Inter';
-	font-size: 1.25rem;
+	margin-top: 0;
+}
+
+ul {
+	margin-block: 0;
+	margin-bottom: 1rem;
 }
