@@ -1,0 +1,21 @@
+app-header {
+	display: flex;
+	background-color: var(--clr-bg-header);
+	min-height: 56px;
+}
+
+nav {
+	width: fit-content;
+}
+
+.wlimit {
+	display: flex;
+	gap: 1rem;
+}
+
+app-navbar {
+	position: sticky;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+}
